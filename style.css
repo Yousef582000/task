@@ -1,0 +1,211 @@
+*{
+margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    padding: 10px;
+  margin-right: 5%;
+    width: 100%;
+    height: 100%;
+    
+
+}
+nav{
+    width: 100%;
+    height: 100px;
+    border: solid 3px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 45px;
+    height: 45px;
+    margin: 0 35px 0 50px;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    font-size: 35px;
+    color: blue;
+}
+p{
+    text-align: center;
+    margin:12px 10px 0 0 ;
+    font-size: 18px;
+}
+.contant{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.one{
+    width: 25%;
+    height: 100%;
+    border:solid 3px;
+}
+.one .chiled{
+    width: 65%;
+    height: 13%;
+    border: solid 5px;
+    border-radius: 12px;
+  text-align: center;
+    margin:10px 80px 20px ;
+
+}
+.chiled .text2{
+    margin-top: 10px;
+    text-align: center;
+}
+.chiled .text2 i{
+    font-size: 35px;
+    margin-top: 10px;
+    color: blue;
+}
+.chiled span{
+    font-size: 25px;
+    margin-right: 10px;
+ 
+}
+.chiled img{
+    margin-top: 10px;
+    width:30px;
+}
+.two{
+    width: 50%;
+    height: 100%;
+    border:solid 3px ;
+}
+.two .titll{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-bottom: 75px;
+  border-bottom: solid 5px black;
+ 
+}
+.parent{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+.parent h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.parent p{
+    width: 50%;
+    margin: auto;
+}
+.two i{
+    font-size: 45px;
+    color: rgb(4, 4, 36);
+    position: absolute;
+    right: 100px;
+   top: 450px;
+   margin-bottom: 15px;
+}
+
+.three{
+    width: 25%;
+    height: 100%;
+    border:solid 3px ;
+}
+.three .pre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.pre .chiled {
+    width: 230px;
+    height: 280px;
+    border: solid 3px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+   
+}
+.pre .chiled .user{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+    border: solid 2px ;
+    text-align: center;
+    border-radius: 12px;
+}
+.pre .chiled i{
+    font-size: 45px;
+  color: rgb(14, 140, 194);
+  margin: 15px 30px ;
+}
+.box .num{
+    width: 180px;
+    height: 50px;
+    border: solid 3px;
+    margin: auto;
+text-align: center;
+border-radius: 10px;
+    margin-top: 15px;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.pre .chiled h2{
+    text-align: center;
+    margin: 15px 0;
+    font-family:cursive;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 25px;
+}
+footer{
+    width: 100%;
+   margin-bottom: 10px;
+    border: solid 3px ;
+}
+footer .box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+footer .box .box1{
+    width: 300px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: solid 4px #000;
+    text-align: center;
+    padding-top: 30px;
+}
+footer .box .box1 span{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+
+}
+footer p{
+    font-size: 30px;
+ margin-bottom: 15px;
+
+}
